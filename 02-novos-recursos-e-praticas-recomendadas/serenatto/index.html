@@ -205,7 +205,12 @@
 
         <div class="row mx-0">
           <div class="btn col-12 col-md-6 col-lg-4">
-            <div class="card border-0 mx-auto btn" style="width: 18rem">
+            <div
+              class="card border-0 mx-auto btn"
+              style="width: 18rem"
+              data-bs-toggle="modal"
+              data-bs-target="#modal-1"
+            >
               <img
                 src="./assets/produtos-cafe-tradicional.png"
                 class="card-img-top"
@@ -218,7 +223,12 @@
           </div>
 
           <div class="btn col-12 col-md-6 col-lg-4">
-            <div class="card border-0 mx-auto btn" style="width: 18rem">
+            <div
+              class="card border-0 mx-auto btn"
+              style="width: 18rem"
+              data-bs-toggle="modal"
+              data-bs-target="#modal-2"
+            >
               <img
                 src="./assets/produtos-cafe-especial.png"
                 class="card-img-top"
@@ -527,6 +537,104 @@
                 cardápio por lá e faça seu pedido!
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 1 -->
+    <div
+      class="modal fade"
+      id="modal-1"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">
+              Cafés tradicionais
+            </h2>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="w-100"
+              src="./assets/produtos-cafe-tradicional.png"
+              alt="xícara de café preto"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis optio voluptas doloribus cumque aliquid, architecto
+            </p>
+            <p>
+              consectetur nemo veritatis incidunt doloremque iusto, ea quaerat
+              nostrum! Impedit laborum ipsa nobis amet commodi.
+            </p>
+          </div>
+          <div class="modal-footer mx-auto">
+            <button
+              type="button"
+              class="btn btn-secondary botao-padrao border-0"
+              data-bs-dismiss="modal"
+            >
+              Fechar janela
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div
+      class="modal fade"
+      id="modal-2"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title fs-5 fw-bold" id="exampleModalLabel">
+              Cafés especiais
+            </h2>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="w-100"
+              src="./assets/produtos-cafe-especial.png"
+              alt="xícara de café preto"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis optio voluptas doloribus cumque aliquid, architecto
+            </p>
+            <p>
+              consectetur nemo veritatis incidunt doloremque iusto, ea quaerat
+              nostrum! Impedit laborum ipsa nobis amet commodi.
+            </p>
+          </div>
+          <div class="modal-footer mx-auto">
+            <button
+              type="button"
+              class="btn btn-secondary botao-padrao border-0"
+              data-bs-dismiss="modal"
+            >
+              Fechar janela
+            </button>
           </div>
         </div>
       </div>
