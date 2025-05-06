@@ -58,3 +58,17 @@ footer {
 .botao-padrao:hover {
   background-color: var(--marrom-escuro);
 }
+
+[data-bs-theme="dark"] {
+  color: #ffffff;
+  .nav-link,
+  .card-body,
+  .offcanvas,
+  .accordion,
+  .btn {
+    --bs-nav-link-color: #ffffff;
+    --bs-card-color: #ffffff;
+    --bs-offcanvas-color: #ffffff;
+    --bs-body-color: #ffffff;
+  }
+}
