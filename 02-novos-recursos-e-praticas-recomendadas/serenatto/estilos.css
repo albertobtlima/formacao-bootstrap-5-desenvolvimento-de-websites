@@ -20,7 +20,8 @@ input[type="checkbox"]:focus {
   outline: none;
 }
 
-.input-range::-webkit-slider-thumb {
+.input-range::-webkit-slider-thumb,
+footer {
   background-color: var(--marrom-claro);
 }
 
